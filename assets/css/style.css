@@ -34,3 +34,27 @@
   font-size: 1rem;
 }
 
+.resume-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.resume-section h1 {
+  font-size: 2rem;
+  color: #0a2342;
+  margin-bottom: 1.5rem;
+}
+
+.resume-embed {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.resume-contact-cta .btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+}
