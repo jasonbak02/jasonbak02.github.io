@@ -3,31 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal portfolio of Jason Bak" />
+  <meta name="description" content="Personal portfolio of Jason Bak, Mechanical Engineering student" />
   <title>Jason Bak | Portfolio</title>
 
-  <!-- Link to CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- Favicon (optional) -->
+  <!-- Optional jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
 <body>
-  <h1>Welcome to my website.</h1>
+  <!-- ===== Header / Navigation ===== -->
+  <header>
+    <div class="logo">Jason Bak</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- ===== Main Content ===== -->
+  <main class="home-section">
+    <div class="intro-container">
+      <h1>Hello, I'm Jason Bak</h1>
+      <p class="bio">
+        I’m a Mechanical Engineering student at Cornell with a passion for designing faster, safer, and more sustainable transportation systems.
+        I enjoy creating innovative mechanical solutions, exploring computational modeling, and working on projects that improve real-world systems.
+      </p>
 
+      <p class="interests">
+        Interests: Public Transportation, Mechanical Design, Food Tech, AI in Healthcare, 3D Modeling
+      </p>
 
+      <a href="projects.html" class="btn">View My Projects</a>
+    </div>
+  </main>
 
-
-
-  
   <!-- ===== Footer ===== -->
   <footer>
     <p>© 2025 Jason Bak. All rights reserved.</p>
   </footer>
 
-  <!-- Link to JavaScript -->
   <script src="assets/js/script.js"></script>
 </body>
 </html>
